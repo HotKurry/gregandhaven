@@ -1,0 +1,242 @@
+body {
+  height: 100%;
+  font-family: 'Nunito Sans', sans-serif; }
+
+html {
+  height: 100%; }
+
+body {
+  position: relative; }
+
+#navbar-top {
+  background: transparent !important; }
+
+.bg {
+  /* The image used */
+  background-image: url("/assets/skybulb4.jpg");
+  background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.mobfix {
+  overflow-x: hidden; }
+
+.boxxed {
+  background-color: #424242;
+  color: #FFF;
+  padding: 9px 18px 9px 18px;
+  border: 0px;
+  border-color: white;
+  border-style: solid;
+  visibility: none; }
+
+.box2 {
+  padding: 5px 10px 5px 10px;
+  letter-spacing: 4px; }
+
+.titles {
+  position: absolute;
+  top: -3rem;
+  width: 100%;
+  padding: 0px 4rem;
+  color: #FFF; }
+
+p {
+  font-family: 'Roboto', sans-serif; }
+
+.container {
+  padding: 10px 0px; }
+
+.greybox {
+  background-color: #424242;
+  min-height: 80px;
+  padding: 15px 0px;
+  color: #FFF; }
+
+#grad2 {
+  height: 7px;
+  margin-top: 30px;
+  /* For browsers that do not support gradients */
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));
+  /* Standard syntax (must be last) */ }
+
+.topgrade {
+  height: 7px;
+  margin-bottom: 30px;
+  /* For browsers that do not support gradients */
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.1));
+  /* Standard syntax (must be last) */
+  background-size: container; }
+
+.text-or {
+  color: #FF5722; }
+
+.circleimg {
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 10px; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+/* COUNTDOWN TIMER CSS */
+#inc {
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px; }
+
+#num {
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 5; }
+
+.caption {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  text-align: center; }
+
+.captext {
+  top: 30%; }
+
+/* END OF COUNTDOWN TIMER CSS */
+/* Parallax it up bitches*/
+.mills {
+  background-image: url("/assets/skygtr.png");
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: absolute;
+  height: 285px;
+  top: -265px;
+  width: 100%; }
+
+.parallax {
+  position: relative;
+  z-index: 1;
+  height: 450px;
+  z-index: -15; }
+
+#trans1 {
+  background: url("/assets/skybulb43.jpg") no-repeat fixed;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: sticky; }
+
+#trans2 {
+  background: url("/assets/canadaflower3.jpg") no-repeat fixed;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: sticky; }
+
+#trans3 {
+  background: url("/assets/streetsofafrica5.jpg") no-repeat fixed;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: sticky; }
+
+#trans4 {
+  background: url("/assets/spainbeach5.jpg") no-repeat fixed;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: sticky; }
+
+/*take 4 plax gooogle shit*/
+code, pre {
+  font-family: "Share Tech Mono";
+  font-size: 0.8em; }
+
+.scene {
+  height: 150vh;
+  padding: 5vh 10vw; }
+
+.parallax {
+  background-size: cover;
+  box-sizing: border-box;
+  width: 100%;
+  height: 130vh;
+  /* Since the parallax elements still consume space, we set the margin to undo
+     the height of this parallax element making it essentially consume 0 space.
+  */
+  margin-bottom: -130vh; }
+
+.header {
+  height: 70vh; }
+
+.parallax.header {
+  margin-bottom: -70vh; }
+
+p {
+  color: white;
+  margin: 1em 0;
+  z-index: 1;
+  position: relative; }
+
+.viewport {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  -webkit-overflow-scrolling: touch; }
+
+.woods:not(.header),
+.sunset:not(.header) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.sunset:not(.header) {
+  align-items: flex-end; }
+
+.solid {
+  z-index: 1;
+  position: relative;
+  height: 70vh;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+.solid.star {
+  background-image: linear-gradient(#020227 0%, 99%, rgba(163, 177, 199, 0) 100%);
+  box-shadow: -10px -10px 20px #020227; }
+
+.solid.woods {
+  background-color: #698791;
+  box-shadow: -10px -10px 20px #698791; }
+
+a, a:link, a:active, a:hover, a:visited {
+  color: #ccccff;
+  display: flex;
+  align-items: flex-end; }
+
+* {
+  box-sizing: border-box; }
+
+h1, h2 {
+  color: #FFF;
+  text-shadow: 2px 1px 1px black; }
